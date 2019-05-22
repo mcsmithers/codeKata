@@ -1,0 +1,29 @@
+# Ignore Python env
+__pycache__
+env
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# NODE
+.node_modules
+node_modules
+*/node_modules
+/node_modules/*
+
+# OS X Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.lnk
+*~
+
+# IDE
+.vscode/
+
